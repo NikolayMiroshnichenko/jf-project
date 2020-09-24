@@ -1,0 +1,283 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto Slab', serif;
+}
+ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+a {
+   text-decoration: none;
+   color: #000;
+}
+.container {
+   width: 1200px;
+   margin: 0 auto;
+}
+.header {
+   margin-top: 80px;
+}
+.logo {
+   width: 90px;
+   height: 90px;
+   background-color: #3ab1f4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   font-size: 50px;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+   margin: 0 auto;
+}
+.logo span {
+   color: #ffffff;
+}
+.header-title {
+   text-align: center;
+   font-weight: bold;
+   font-size: 30px;
+   padding: 20px 340px;
+}
+.trainings {
+   width: 100%;
+   background-color: #3ab1f4;
+   padding: 40px 0;
+   margin-bottom: 40px;
+}
+.trainings-container {
+   display: flex;
+   justify-content: center;
+}
+.trainings-block__title {
+   font-weight: 500;
+   font-size: 32px;
+   text-align: center;
+   color: #ffffff;
+   margin: 0;
+   padding-bottom: 20px;
+}
+.trainings-list {
+   color: #ffffff;
+}
+.trainings-list li {
+   font-size: 20px;
+   position: relative;
+   margin-bottom: 6px;
+}
+.trainings-list li::before {
+   position: absolute;
+   content: '';
+   left: -16px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 8px;
+   height: 8px;
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+/* webinar */
+.webinar-sections {
+   margin-bottom: 40px;
+}
+.webinar-list__item {
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 140px 40px 90px;
+   border-bottom: 1px solid #000000;
+}
+.webinar-list__item:last-child {
+  border-bottom: none;
+}
+.item {
+   width: 500px;
+}
+.item-title {
+   font-weight: bold;
+   font-size: 24px;
+   color: #000000;
+   margin: 0;
+}
+.item-title span {
+   color: #797979;
+   font-size: 20px;
+   font-weight: 500;
+}
+.item-title__desk {
+   display: flex;
+   align-items: center;
+   font-size: 16px;
+   color: #797979;
+}
+.item-title__desk-icon {
+   width: 20px;
+   height: 20px;
+   margin-right: 8px;
+}
+.item-list {
+   padding-left: 30px;
+}
+.item-list__title {
+   font-weight: bold;
+   font-size: 20px;
+   margin: 0;
+}
+.item-list__text {
+   font-weight: 300;
+   font-size: 16px;
+}
+.form-container {
+   position: relative;
+   width: 400px;
+   padding-top: 40px;
+}
+.form-container__price-top,
+.form-container__date-top {
+   font-size: 20px;
+   font-weight: 500;
+   opacity: 0.8;
+}
+.form-container__date-top {
+   position: absolute;
+   left: 30px;
+   top: 0;
+}
+.form-container__price-top {
+   position: absolute;
+   right: 50px;
+   top: 0;
+}
+.price {
+   width: 100%;
+   background-color: #3ab1f4;
+   padding: 20px 0 10px 0;
+}
+.price li {
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 30px;
+   color: #ffffff;
+   z-index: 999;
+}
+.price-list__active {
+   background: linear-gradient(
+      90deg,
+      #62c6ff 0%,
+      rgba(209, 239, 255, 0) 91.98%
+   );
+}
+.price-list__date-bg {
+   position: absolute;
+   width: 120px;
+   height: 40px;
+   left: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   background-image: url(../img/webinar-list/union.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+}
+
+.price-list__date {
+   position: relative;
+   width: 80%;
+   font-size: 18px;
+   white-space: nowrap;
+   overflow: hidden;
+}
+.price-list__date::after {
+   content: '..........................................................................';
+   position: absolute;
+   color: #ffffff;
+   letter-spacing: 5px;
+}
+.price-list__date-active {
+  position: relative;
+}
+.price-list__date-active::after {
+  content: "";
+}
+.price-list__price {
+   width: 20%;
+   white-space: nowrap;
+   font-weight: 900;
+   font-size: 22px;
+}
+.price-btn {
+   display: block;
+   display: flex;
+   justify-content: center;
+   width: 240px;
+   padding: 16px 0;
+   background: linear-gradient(180deg, #f3dca1 0%, #edc45a 100%);
+   border: 2px solid #a0812d;
+   box-sizing: border-box;
+   border-radius: 87px;
+   margin: 0 auto;
+}
+.price-btn {
+   font-weight: 500;
+}
+.price-btn span {
+   position: relative;
+   line-height: 1.6;
+}
+.price-btn span::after {
+   position: absolute;
+   content: '';
+   right: -16px;
+   top: 58%;
+   transform: translateY(-50%);
+   width: 8px;
+   height: 12px;
+   background-image: url(../img/webinar-list/arrow.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.price-text {
+   text-align: center;
+   font-weight: 500;
+   font-size: 20px;
+   color: #ffffff;
+   text-decoration: underline;
+}
+.price-text span {
+   font-weight: 900;
+}
+.form-descriptions {
+   padding: 20px;
+   border-left: 1px solid #797979;
+   border-right: 1px solid #797979;
+   border-bottom: 1px solid #797979;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.descriptions-list {
+   margin-bottom: 20px;
+}
+.descriptions-list li {
+   display: flex;
+   margin-bottom: 10px;
+   font-size: 14px;
+   font-weight: 500;
+}
+.descriptions-list__icon {
+   min-width: 28px;
+   min-height: 28px;
+   width: 28px;
+   height: 28px;
+   margin-right: 12px;
+   fill: #797979;
+}
+.form-descriptions__text {
+   font-weight: 500;
+   font-size: 10px;
+   text-align: center;
+   opacity: 0.6;
+}
