@@ -89,7 +89,7 @@ a {
    border-bottom: 1px solid #000000;
 }
 .webinar-list__item:last-child {
-  border-bottom: none;
+   border-bottom: none;
 }
 .item {
    width: 500px;
@@ -197,10 +197,10 @@ a {
    letter-spacing: 5px;
 }
 .price-list__date-active {
-  position: relative;
+   position: relative;
 }
 .price-list__date-active::after {
-  content: "";
+   content: '';
 }
 .price-list__price {
    width: 20%;
@@ -214,14 +214,12 @@ a {
    justify-content: center;
    width: 240px;
    padding: 16px 0;
+   font-weight: 500;
    background: linear-gradient(180deg, #f3dca1 0%, #edc45a 100%);
    border: 2px solid #a0812d;
    box-sizing: border-box;
    border-radius: 87px;
    margin: 0 auto;
-}
-.price-btn {
-   font-weight: 500;
 }
 .price-btn span {
    position: relative;
@@ -280,4 +278,88 @@ a {
    font-size: 10px;
    text-align: center;
    opacity: 0.6;
+}
+/* sentence */
+.sentence-container {
+   margin-bottom: 80px;
+}
+.sentence {
+   position: relative;
+   width: 100%;
+   padding: 40px 260px 20px 120px;
+   background-color: #62c6ff;
+   box-shadow: 0px 0px 40px #62c6ff;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+.sentence-title {
+   font-weight: bold;
+   font-size: 30px;
+   color: #ffffff;
+   margin: 0;
+}
+.sentence-descriptions {
+   font-weight: bold;
+   font-size: 20px;
+   color: #ffffff;
+   padding-right: 32%;
+   margin-bottom: 40px;
+}
+.sentence-descriptions span {
+   display: inline-block;
+   padding: 0 34px 0 12px;
+   font-size: 40px;
+   background-image: url(../img/webinar-list/union.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+}
+.sentence-btn {
+   display: block;
+   display: flex;
+   justify-content: center;
+   width: 240px;
+   padding: 16px 0;
+   background: linear-gradient(180deg, #f3dca1 0%, #edc45a 100%);
+   border: 2px solid #a0812d;
+   box-sizing: border-box;
+   border-radius: 87px;
+}
+.sentence-btn span {
+   position: relative;
+   line-height: 1.6;
+}
+.sentence-btn span::after {
+   position: absolute;
+   content: '';
+   right: -16px;
+   top: 56%;
+   transform: translateY(-50%);
+   width: 8px;
+   height: 12px;
+   background-image: url(../img/webinar-list/arrow.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.sentence-text {
+   font-weight: 500;
+   font-size: 20px;
+   color: #ffffff;
+   opacity: 0.7;
+}
+.sentence-text span {
+   text-decoration: underline;
+}
+.sentence-img {
+   width: 436px;
+}
+.sentence-img {
+   position: absolute;
+   right: 20px;
+   bottom: 20px;
+}
+.sentence-img img {
+   display: block;
+   width: 100%;
 }
