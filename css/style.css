@@ -39,7 +39,7 @@ a {
    text-align: center;
    font-weight: bold;
    font-size: 30px;
-   padding: 20px 340px;
+   padding: 20px 320px;
 }
 .trainings {
    width: 100%;
@@ -362,4 +362,41 @@ a {
 .sentence-img img {
    display: block;
    width: 100%;
+}
+/* footer */
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0 40px 0;
+}
+.footer-item {
+   display: flex;
+   align-items: center;
+}
+.footer-logo {
+   width: 60px;
+   height: 60px;
+   background-color: #3ab1f4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   font-size: 32px;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+   margin-right: 50px;
+}
+.footer-logo span {
+   color: #ffffff;
+}
+.footer-item__text {
+   font-size: 18px;
+   font-weight: 500;
+}
+.footer-item__links {
+   text-decoration: underline;
+   color: #20AFFF;
+   font-weight: bold;
+   font-size: 18px;
 }

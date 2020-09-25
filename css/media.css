@@ -1,0 +1,124 @@
+@media (max-width: 1240px) {
+   .container {
+      width: 968px;
+   }
+   .header-title {
+      padding: 20px 220px;
+   }
+   .webinar-list__item {
+      padding: 40px 0 40px 0;
+   }
+   .sentence {
+      padding: 40px 140px 20px 60px;
+   }
+   .sentence-title {
+      font-size: 28px;
+   }
+   .sentence-descriptions {
+      font-size: 20px;
+      padding-right: 30%;
+   }
+}
+@media (max-width: 992px) {
+   .container {
+      width: 720px;
+   }
+   .header-title {
+      padding: 20px 80px;
+   }
+   .webinar-list__item {
+      flex-direction: column;
+      align-items: center;
+   }
+   .item {
+      margin-bottom: 40px;
+   }
+   .sentence {
+      padding: 40px;
+   }
+   .sentence-title {
+      text-align: center;
+   }
+   .sentence-descriptions {
+      padding-right: 0;
+      text-align: center;
+   }
+   .sentence-btn {
+      margin: 0 auto;
+   }
+   .sentence-text {
+       text-align: center;
+   }
+   .sentence-img {
+      display: none;
+   }
+   .footer {
+       flex-direction: column;
+   }
+   .footer-item {
+       flex-direction: column;
+   }
+   .footer-logo {
+       margin-right: 0;
+   }
+   .footer-item__text {
+       text-align: center;
+   }
+}
+@media (max-width: 740px) {
+    .container {
+        width: 90%;
+    }
+    .header-title {
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    .trainings-list {
+        padding-left: 20px;
+    }
+    .trainings-list li {
+        font-size: 16px;
+    } 
+    .trainings-list li::before {
+        width: 6px;
+        height: 6px;
+    }
+    .form-container,
+    .item {
+        width: 100%;
+    }
+    .item-title {
+        font-size: 20px;
+    }
+    .item-list__title,
+    .item-title span {
+        font-size: 18px;
+    }
+    .item-list {
+        padding-left: 20px;
+    }
+    .price-text,
+    .sentence-descriptions,
+    .sentence-text,
+    .footer-item__text
+    .price-text {
+        font-size: 16px;
+    }
+    .sentence-title {
+        font-size: 22px;
+    }
+    .sentence-descriptions span {
+        font-size: 26px;
+    }
+}
+@media (max-width: 340px) {
+    .sentence-title {
+        font-size: 18px;
+    }
+    .sentence-descriptions {
+        font-size: 14px;
+    }
+    .sentence-descriptions span {
+        font-size: 22px;
+    }
+} 
