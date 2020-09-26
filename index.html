@@ -112,7 +112,7 @@
                            <span class="price-list__price">$ 480</span>
                         </li>
                      </ul>
-                     <a href="#" class="price-btn">
+                     <a href="#" class="price-btn js-open-modal">
                         <span>Buy now</span>
                      </a>
                      <p class="price-text">
@@ -252,7 +252,7 @@
                            <span class="price-list__price">$ 480</span>
                         </li>
                      </ul>
-                     <a href="#" class="price-btn">
+                     <a href="#" class="price-btn js-open-modal">
                         <span>Buy now</span>
                      </a>
                      <p class="price-text">
@@ -394,7 +394,7 @@
                            <span class="price-list__price">$ 480</span>
                         </li>
                      </ul>
-                     <a href="#" class="price-btn">
+                     <a href="#" class="price-btn js-open-modal">
                         <span>Buy now</span>
                      </a>
                      <p class="price-text">
@@ -536,7 +536,7 @@
                            <span class="price-list__price">$ 480</span>
                         </li>
                      </ul>
-                     <a href="#" class="price-btn">
+                     <a href="#" class="price-btn js-open-modal">
                         <span>Buy now</span>
                      </a>
                      <p class="price-text">
@@ -630,5 +630,69 @@
             <a href="#" class="footer-item__links">Terms and Conditions</a>
          </div>
       </footer>
+      <div class="overlay" data-close="close">
+         <div class="modal-container">
+            <div class="modal">
+               <div class="close-btn" data-close="close">
+                  <svg
+                     data-close="close"
+                     version="1.1"
+                     class="close-btn__icon"
+                     viewBox="0 0 172 172"
+                  >
+                     <g
+                        data-close="close"
+                        fill="none"
+                        fill-rule="nonzero"
+                        stroke="none"
+                        stroke-width="1"
+                        stroke-linecap="butt"
+                        stroke-linejoin="miter"
+                        stroke-miterlimit="10"
+                        stroke-dasharray=""
+                        stroke-dashoffset="0"
+                        font-family="none"
+                        font-weight="none"
+                        font-size="none"
+                        text-anchor="none"
+                        style="mix-blend-mode: normal"
+                     >
+                        <path data-close="close" d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff" data-close="close">
+                           <path
+                              data-close="close"
+                              d="M49.5575,44.72l-4.8375,4.8375l36.55,36.4425l-36.55,36.4425l4.8375,4.8375l36.6575,-36.4425l36.55,36.4425l4.8375,-4.8375l-36.55,-36.4425l36.55,-36.4425l-4.8375,-4.8375l-36.55,36.4425z"
+                           ></path>
+                        </g>
+                     </g>
+                  </svg>
+               </div>
+               <h2 class="modal-title">
+                  I want to buy a course and receive an invoice for payment
+               </h2>
+               <form>
+                  <input
+                     type="text"
+                     class="input"
+                     name=""
+                     id=""
+                     placeholder="Your name"
+                  />
+                  <input
+                     type="email"
+                     class="input"
+                     name=""
+                     id=""
+                     placeholder="Your email"
+                  />
+                  <button type="submit" class="btn-submit">
+                     <span>Buy now</span>
+                  </button>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <script src="js/modal.js"></script>
    </body>
 </html>

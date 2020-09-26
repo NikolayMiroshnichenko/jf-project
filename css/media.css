@@ -104,12 +104,27 @@
     .price-text {
         font-size: 16px;
     }
+    .sentence {
+        padding: 40px 20px;
+    }
     .sentence-title {
         font-size: 22px;
     }
     .sentence-descriptions span {
         font-size: 26px;
     }
+    .modal-container {
+        width: 80%;
+    }
+    .modal {
+        width: 100%;
+        padding: 20px;
+    }
+    .modal-title {
+        font-size: 18px;
+        padding: 0;
+    }
+
 }
 @media (max-width: 340px) {
     .sentence-title {
@@ -120,5 +135,8 @@
     }
     .sentence-descriptions span {
         font-size: 22px;
+    }
+    .modal-title {
+        font-size: 16px;
     }
 } 
