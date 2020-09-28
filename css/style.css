@@ -59,14 +59,15 @@ a {
    margin: 0;
    padding-bottom: 20px;
 }
-.trainings-list {
-   color: #ffffff;
-}
 .trainings-list li {
    font-size: 20px;
    position: relative;
    margin-bottom: 6px;
 }
+.trainings-list li a {
+   color: #ffffff;
+}
+
 .trainings-list li::before {
    position: absolute;
    content: '';
@@ -220,6 +221,7 @@ a {
    box-sizing: border-box;
    border-radius: 87px;
    margin: 0 auto;
+   transition: all 0.3s;
 }
 .price-btn span {
    position: relative;
@@ -324,6 +326,7 @@ a {
    border: 2px solid #a0812d;
    box-sizing: border-box;
    border-radius: 87px;
+   transition: all 0.3s;
 }
 .sentence-btn span {
    position: relative;
@@ -445,6 +448,7 @@ a {
    background-color: #3AB1F4;
    border-radius: 50%;
    cursor: pointer;
+   transition: all 0.3s;
 }
 .close-btn__icon {
    position: absolute;
@@ -468,7 +472,9 @@ a {
    border: none;
    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
    margin-bottom: 20px;
-
+}
+.input-error {
+   border-bottom: 1px solid rgba(255, 0, 0, 0.8);
 }
 .btn-submit {
    display: block;
@@ -483,6 +489,8 @@ a {
    border-radius: 87px;
    margin: 10px auto;
    cursor: pointer;
+   outline: none;
+   transition: all 0.3s;
 }
 .btn-submit span {
    position: relative;
@@ -500,4 +508,16 @@ a {
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
+}
+
+
+/* btnHover */
+.btn-submit:hover,
+.sentence-btn:hover,
+.price-btn:hover {
+   transform: scale(0.9);
+   opacity: 0.8;
+}
+.close-btn:hover {
+   transform: rotate(180deg);
 }
